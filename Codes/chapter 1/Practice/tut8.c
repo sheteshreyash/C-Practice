@@ -1,11 +1,8 @@
 #include <stdio.h>
 /*
-   Print a multiplication table of a number entered by the user in pretty form
-   eg : 
-   
-   Enter the number you want mult table of : 6
-
-   table of 6 : 
+    Print a multiplication table of a number entered by the user in pretty form
+    eg : Enter the number you want mult table of : 6
+        table of 6 :
 */
 int main(int argc, char const *argv[])
 {
@@ -18,6 +15,5 @@ int main(int argc, char const *argv[])
     {
         printf("\n%d * %d = %d \n", n, i, n*i);
     }
-    
     return 0;
 }
