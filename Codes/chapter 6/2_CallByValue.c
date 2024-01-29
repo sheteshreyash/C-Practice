@@ -14,6 +14,5 @@ int main(int argc, char const *argv[])
 {
     int a = 4, b = 7;
     printf("The value of 4+7 is %d \n", sum(a, b));
-
     return 0;
 }
