@@ -3,22 +3,22 @@
 #include <stdio.h>
 
 int main() {
-    // Create a 2D array of size 3x10
-    int multiplicationTables[3][10];
+    int multiplicationTables[3][10]; // Create a 2D array of size 3x10
 
-    // Fill the array with multiplication tables
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 3; i++) {       // Fill the array with multiplication tables
         int multiplier;
-
-        // Determine the multiplier based on the row index
-        if (i == 0) {
+        if (i == 0)
+        { // Determine the multiplier based on the row index
             multiplier = 2;
-        } else if (i == 1) {
+        }
+        else if (i == 1)
+        {
             multiplier = 7;
-        } else {
+        }
+        else
+        {
             multiplier = 9;
         }
-
         for (int j = 0; j < 10; j++)
         { // Fill the row with the multiplication table for the current multiplier
             multiplicationTables[i][j] = multiplier * (j + 1);
