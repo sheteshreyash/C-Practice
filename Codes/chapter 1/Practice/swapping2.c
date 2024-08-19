@@ -9,7 +9,6 @@
     scanf("%lf", &b);
 
     // swapping
-
     a = a - b;   // a = (initial_a - initial_b)
     b = a + b;   // b = (initial_a - initial_b) + initial_b = initial_a
     a = b - a;  // a = initial_a - (initial_a - initial_b) = initial_b
