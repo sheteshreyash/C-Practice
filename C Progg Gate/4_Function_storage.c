@@ -40,8 +40,7 @@
     {
         // Function and storage in C
         // 1. Function
-        int mul(int a, int b)
-        {
+        int mul(int a, int b) {
             return a * b;
         };
         printf("The multiplication of 3 and 4 is %d\n", mul(3, 4));
